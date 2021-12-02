@@ -18,10 +18,9 @@ list_winner = []
 for i in comp_res:
     if i[1] == 1:
         winner = i[0][0]
-        list_winner.append(winner)
     elif i[1] == 0:
         winner = i[0][1]
-        list_winner.append(winner)
+    list_winner.append(winner)
 
 
 most_common = max(list_winner, key = list_winner.count)
@@ -48,10 +47,9 @@ list_winner = []
 for i in comp_res:
     if i[1] == 1:
         winner = i[0][0]
-        list_winner.append(winner)
     elif i[1] == 0:
         winner = i[0][1]
-        list_winner.append(winner)
+    list_winner.append(winner)
 
 
 most_common = max(list_winner, key = list_winner.count)
@@ -74,10 +72,9 @@ list_winner = []
 for i in comp_res:
     if i[1] == 1:
         winner = i[0][0]
-        list_winner.append(winner)
     elif i[1] == 0:
         winner = i[0][1]
-        list_winner.append(winner)
+    list_winner.append(winner)
 
 
 most_common = max(list_winner, key = list_winner.count)
